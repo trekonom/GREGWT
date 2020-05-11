@@ -53,6 +53,7 @@
 #TODO: make example Synthetize
 Synthetize <- function(x, ...) UseMethod("Synthetize")
 
+#' @export
 Synthetize.default <- function(
         data_in         = FALSE,
         X               = FALSE,
