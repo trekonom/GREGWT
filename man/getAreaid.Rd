@@ -4,9 +4,16 @@
 \alias{getAreaid}
 \title{getAreaid}
 \usage{
-getAreaid(census, census_area_id = FALSE, breaks = FALSE,
-  pop_benchmark = FALSE, du_benchmark = FALSE, building_benchmark = FALSE,
-  pop_total_col = FALSE, verbose = FALSE)
+getAreaid(
+  census,
+  census_area_id = FALSE,
+  breaks = FALSE,
+  pop_benchmark = FALSE,
+  du_benchmark = FALSE,
+  building_benchmark = FALSE,
+  pop_total_col = FALSE,
+  verbose = FALSE
+)
 }
 \arguments{
 \item{census}{binary census survey data}

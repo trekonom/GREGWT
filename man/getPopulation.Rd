@@ -4,9 +4,17 @@
 \alias{getPopulation}
 \title{getPopulation}
 \usage{
-getPopulation(Tx, breaks, area_id_pos = FALSE, area_id = FALSE,
-  pop_benchmark = FALSE, du_benchmark = FALSE, building_benchmark = FALSE,
-  pop_total_col = FALSE, verbose = FALSE)
+getPopulation(
+  Tx,
+  breaks,
+  area_id_pos = FALSE,
+  area_id = FALSE,
+  pop_benchmark = FALSE,
+  du_benchmark = FALSE,
+  building_benchmark = FALSE,
+  pop_total_col = FALSE,
+  verbose = FALSE
+)
 }
 \arguments{
 \item{Tx}{census data}

@@ -1,3 +1,4 @@
 *.sh
 _BUK/
 updatedoc.sh
+.Rproj.user

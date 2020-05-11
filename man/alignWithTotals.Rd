@@ -4,8 +4,14 @@
 \alias{alignWithTotals}
 \title{alignWithTotals}
 \usage{
-alignWithTotals(Tx, breaks, pop_totals, pos, name = "standard",
-  verbose = FALSE)
+alignWithTotals(
+  Tx,
+  breaks,
+  pop_totals,
+  pos,
+  name = "standard",
+  verbose = FALSE
+)
 }
 \arguments{
 \item{Tx, }{un-aligned census data}

@@ -4,12 +4,27 @@
 \alias{prepareData}
 \title{prepareData}
 \usage{
-prepareData(census, survey, census_area_id = 1, survey_id = 1,
-  convert = TRUE, use_base = TRUE, census_categories = FALSE,
-  survey_weights = FALSE, survey_categories = FALSE,
-  reference_col = FALSE, group = FALSE, na.rm = FALSE, breaks = FALSE,
-  pop_benchmark = FALSE, du_benchmark = FALSE, building_benchmark = FALSE,
-  align = FALSE, pop_total_col = FALSE, verbose = FALSE)
+prepareData(
+  census,
+  survey,
+  census_area_id = 1,
+  survey_id = 1,
+  convert = TRUE,
+  use_base = TRUE,
+  census_categories = FALSE,
+  survey_weights = FALSE,
+  survey_categories = FALSE,
+  reference_col = FALSE,
+  group = FALSE,
+  na.rm = FALSE,
+  breaks = FALSE,
+  pop_benchmark = FALSE,
+  du_benchmark = FALSE,
+  building_benchmark = FALSE,
+  align = FALSE,
+  pop_total_col = FALSE,
+  verbose = FALSE
+)
 }
 \arguments{
 \item{census}{Census data of small areas.}
