@@ -84,6 +84,7 @@
 #' @author M. Esteban Munoz H.
 GREGWT <- function(x, ...) UseMethod("GREGWT")
 
+#' @export
 GREGWT.default <- function(data_in           = FALSE,
                            X_input           = FALSE,
                            X_complete_input  = FALSE,
